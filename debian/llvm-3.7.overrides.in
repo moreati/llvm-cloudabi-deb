@@ -1,0 +1,3 @@
+# We choose to use usr/<gnu triplet> rather than usr/<multiarch tuple>.
+@PKG@ binary: non-standard-dir-in-usr
+@PKG@ binary: file-in-unusual-dir

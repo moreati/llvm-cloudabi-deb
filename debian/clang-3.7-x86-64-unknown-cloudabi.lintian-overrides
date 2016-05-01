@@ -1,0 +1,2 @@
+# We choose to use usr/<gnu triplet> rather than usr/<multiarch tuple>.
+clang-3.7-x86-64-unknown-cloudabi binary: non-standard-dir-in-usr

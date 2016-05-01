@@ -1,0 +1,31 @@
+Source: llvm-3.7-cloudabi
+Section: devel
+Priority: optional
+Maintainer: Alex Willmer <alex@moreati.org.uk>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://nuxi.nl/
+Vcs-Git: https://github.com/moreati/llvm-cloudabi-deb.git
+Vcs-Browser: https://github.com/moreati/llvm-cloudabi-deb
+
+Package: clang-3.7-aarch64-unknown-cloudabi
+Architecture: any
+Depends: clang-3.7, ${misc:Depends}
+Description: C, C++ & Objective-C compiler for aarch64-unknown-cloudabi
+ CloudABI is a runtime environment that introduces dependency injection to
+ Unix-like systems. It has a capabilities based security model, based on that
+ of the Capsicum project.
+ .
+ This package installs symlinks that allow CloudABI binaries for ARM AArch64
+ to be built with the Clang compiler.
+
+Package: clang-3.7-x86-64-unknown-cloudabi
+Architecture: any
+Depends: clang-3.7, ${misc:Depends}
+Description: C, C++ & Objective-C compiler for x86-64-unknown-cloudabi
+ CloudABI is a runtime environment that introduces dependency injection to
+ Unix-like systems. It has a capabilities based security model, based on that
+ of the Capsicum project.
+ .
+ This package installs symlinks that allow CloudABI binaries for AMD64/x86-64
+ to be built with the Clang compiler.
