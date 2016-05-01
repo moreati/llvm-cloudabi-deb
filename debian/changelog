@@ -1,3 +1,10 @@
+llvm-3.7-cloudabi (0.2) UNRELEASED; urgency=medium
+
+  * Remove lintian overrides, we don't violate non-standard-dir-in-usr
+    after all
+
+ -- Alex Willmer <alex@martha>  Sun, 01 May 2016 21:39:23 +0100
+
 llvm-3.7-cloudabi (0.1) xenial; urgency=medium
 
   * Packaging experiment.
